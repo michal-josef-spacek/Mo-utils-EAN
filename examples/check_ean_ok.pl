@@ -6,9 +6,9 @@ use warnings;
 use Mo::utils::EAN qw(check_ean);
 
 my $self = {
-        'key' => 'en',
+        'key' => '8590786020177',
 };
-check_ean($self, '8590786020177');
+check_ean($self, 'key');
 
 # Print out.
 print "ok\n";
